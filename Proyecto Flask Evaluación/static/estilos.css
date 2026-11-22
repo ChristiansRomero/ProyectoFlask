@@ -1,0 +1,76 @@
+button {
+    background-color: #426EFF;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 20px;
+    margin: 10%;
+    cursor: pointer;
+    width: 80%;
+}
+
+body {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+label {
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 10%;
+    width: 100%;
+    font-weight: bold;
+}
+
+input {
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 2px solid #e8e8e8;
+    margin: 10px;
+    width: 90%;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 19px;
+    text-align: center;
+}
+/* LA FORMA DE PERSONALIZAR UN TIPO INPUT SUBMIT SE CONSIGUIÓ DESDE UNA FUENTE EXTERNA
+FUENTE: https://stackoverflow.com/questions/40525866/css-for-inputtype-submit
+ */
+input[type="submit"] {
+    background-color: #426EFF;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 35%;
+    padding: 10px;
+}
+
+.encabezados {
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 16%;
+}
